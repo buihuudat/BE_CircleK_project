@@ -11,7 +11,8 @@ namespace CircleKAPI.Models.Product
         [StringLength(200)]
         public string Description { get; set; } = string.Empty;
         public int ProducerId { get; set; }
-        public int Count { get; set; }
+        public int Count { get; set; } = 0;
+        public string Image { get; set; } = "";
         public DateTime HXS { get; set; }
         public DateTime HSD { get; set; }
     }

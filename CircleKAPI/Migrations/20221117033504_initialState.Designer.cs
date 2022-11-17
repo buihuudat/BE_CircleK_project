@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CircleKAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221117031737_initialState")]
+    [Migration("20221117033504_initialState")]
     partial class initialState
     {
         /// <inheritdoc />
@@ -72,6 +72,10 @@ namespace CircleKAPI.Migrations
 
                     b.Property<DateTime>("HXS")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
                         .IsRequired()

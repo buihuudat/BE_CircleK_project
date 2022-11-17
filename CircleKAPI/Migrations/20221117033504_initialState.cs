@@ -36,6 +36,7 @@ namespace CircleKAPI.Migrations
                     Description = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     ProducerId = table.Column<int>(type: "int", nullable: false),
                     Count = table.Column<int>(type: "int", nullable: false),
+                    Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     HXS = table.Column<DateTime>(type: "datetime2", nullable: false),
                     HSD = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
