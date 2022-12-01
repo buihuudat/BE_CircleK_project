@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CircleKAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221117033504_initialState")]
-    partial class initialState
+    [Migration("20221130105425_api cicleK")]
+    partial class apicicleK
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -64,8 +64,7 @@ namespace CircleKAPI.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("HSD")
                         .HasColumnType("datetime2");
@@ -81,8 +80,15 @@ namespace CircleKAPI.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
                     b.Property<int>("ProducerId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

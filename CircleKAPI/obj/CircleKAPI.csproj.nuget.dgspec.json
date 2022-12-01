@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\CircleKAPI.csproj": {}
+    "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\CircleKAPI.csproj": {
+    "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\CircleKAPI.csproj",
+        "projectUniqueName": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
         "projectName": "CircleKAPI",
-        "projectPath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\CircleKAPI.csproj",
+        "projectPath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
         "packagesPath": "C:\\Users\\dat54\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\obj\\",
+        "outputPath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dat54\\AppData\\Roaming\\NuGet\\NuGet.Config",

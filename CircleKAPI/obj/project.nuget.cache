@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d3Gu1VqSktLPfbLS7te/cw3pyqiJIpOd19RuSdeLl9+VSVHOOPzXkzOcvMO9Gj0tqLATFbDyzR1+1el+/tEY8g==",
+  "dgSpecHash": "uGUIqS6S7cxEZp+yGx72B30uuqJ6iwFSYDSjMw9enwRs9ykmMY0b6/mhRZMBLhrxQSetOAhKSS287z6sRpklpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKPrpject\\server\\CircleKAPI\\CircleKAPI\\CircleKAPI.csproj",
+  "projectFilePath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dat54\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dat54\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
