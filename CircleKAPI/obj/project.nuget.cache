@@ -1,9 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "uGUIqS6S7cxEZp+yGx72B30uuqJ6iwFSYDSjMw9enwRs9ykmMY0b6/mhRZMBLhrxQSetOAhKSS287z6sRpklpQ==",
+  "dgSpecHash": "ica/lRY21orjCxeNpYaB4IXovlyxXUsJ3DC0W4hoiDHKeQ7Dc1Tfk8xNatuOiu8gB3HbUrinr5bqiWvmKwFnTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\7.2.0\\amazon.lambda.aspnetcoreserver.7.2.0.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.aspnetcoreserver.hosting\\1.3.1\\amazon.lambda.aspnetcoreserver.hosting.1.3.1.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.runtimesupport\\1.8.1\\amazon.lambda.runtimesupport.1.8.1.nupkg.sha512",
+    "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
     "C:\\Users\\dat54\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dat54\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\dat54\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
