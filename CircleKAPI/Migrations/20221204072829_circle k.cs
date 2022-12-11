@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CircleKAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class circleK : Migration
+    public partial class circlek : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,8 @@ namespace CircleKAPI.Migrations
                     Voucher = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     NameOfUser = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Phone = table.Column<long>(type: "bigint", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Status = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {

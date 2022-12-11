@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CircleKAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221203141439_circle K")]
-    partial class circleK
+    [Migration("20221204072829_circle k")]
+    partial class circlek
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,6 +43,9 @@ namespace CircleKAPI.Migrations
 
                     b.Property<long>("Phone")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
 
                     b.Property<string>("UID")
                         .IsRequired()

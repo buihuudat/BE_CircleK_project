@@ -41,6 +41,9 @@ namespace CircleKAPI.Migrations
                     b.Property<long>("Phone")
                         .HasColumnType("bigint");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.Property<string>("UID")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
