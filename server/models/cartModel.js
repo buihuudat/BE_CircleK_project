@@ -6,6 +6,7 @@ const Product = mongoose.Schema({
   description: String,
   producerId: Number,
   count: Number,
+  prdCount: Number,
   image: String,
   type: String,
   price: String,

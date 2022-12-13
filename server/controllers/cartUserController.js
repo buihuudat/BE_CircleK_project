@@ -43,21 +43,19 @@ module.exports = {
   },
 
   update: (req, res) => {
+    console.log(req.body);
     co(function* () {
-      const checkOrder = yield Cart.findById(req.body.id);
+      const checkOrder = yield Cart.findById(req.params.id);
       if (!checkOrder) {
         return yield Promise.reject(new Error("Not found"));
       }
 
-      console.log(req.body);
-
       const order = yield Cart.findOneAndUpdate(
         { _id: req.body.id, "cart._id": req.body.cartId },
         {
-          $set: { "cart.$.status": true },
+          $set: { "cart.$.status": req.body.status },
         }
       );
-      console.log(order);
       return order;
     })
       .then((data) => res.status(200).json(data))
