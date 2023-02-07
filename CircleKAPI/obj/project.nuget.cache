@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ica/lRY21orjCxeNpYaB4IXovlyxXUsJ3DC0W4hoiDHKeQ7Dc1Tfk8xNatuOiu8gB3HbUrinr5bqiWvmKwFnTw==",
+  "dgSpecHash": "ucuEZSGFL37PwBbWLKIY9/SoayPRvOp6K8LfEzjSfQe8p2hyH/CWelWusz8eYEsrPAmNDMNY/rKhoRWIbUtHFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dat54\\OneDrive\\Desktop\\CricleKProject\\server\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
+  "projectFilePath": "C:\\Users\\dat54\\OneDrive\\Desktop\\demo\\BE_CircleK_project\\CircleKAPI\\CircleKAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
     "C:\\Users\\dat54\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
